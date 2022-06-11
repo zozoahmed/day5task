@@ -40,15 +40,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
         $errors['content']='content must be at least 30 chars';
     }
 
-    // if(empty($image)) 
-    // {
-    //     $errors['image']  = 'field is required';
-    // }
-    // elseif  (strlen($image)<30)
-    // {
-    //     $errors['content']='content must be at least 30 chars';
-    // }
-
+   
     
 $_SESSION['title']=$title;
 $_SESSION['content']=$content;
